@@ -1,5 +1,5 @@
 {
-    "manifest_version": "1",
+    "manifest_version": "2",
     "api_version": "1",
     "name": "Travis",
     "description": "Check the build status of your Travis CI projects.",
@@ -12,7 +12,7 @@
             "id": "kw",
             "type": "keyword",
             "name": "Travis",
-            "default_value": "tra"
+            "default_value": "travis"
         },
         {
             "id": "access_token",
