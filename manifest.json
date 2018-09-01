@@ -1,0 +1,25 @@
+{
+    "manifest_version": "1",
+    "api_version": "1",
+    "name": "Travis",
+    "description": "Check the build status of your Travis CI projects.",
+    "developer_name": "Bruno Paz",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.1
+    },
+    "preferences": [{
+            "id": "kw",
+            "type": "keyword",
+            "name": "Travis",
+            "default_value": "tra"
+        },
+        {
+            "id": "access_token",
+            "type": "input",
+            "name": "Access Token",
+            "description": "The access token to authenticate on the Travis API",
+            "default_value": ""
+        }
+    ]
+}
